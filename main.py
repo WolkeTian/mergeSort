@@ -10,6 +10,9 @@ def mergeSort(List):
     else:
       return List_b[0:1] + merge(List_a, List_b[1:])
   
+  # baseline conditions
+  if len(List) == 1:
+    return List
   mid = int(len(List)/2)
   List_a = List[0:mid]
   List_b = List[mid:]
