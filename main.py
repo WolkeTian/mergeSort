@@ -2,7 +2,7 @@
 # python
 def mergeSort(List):
   def merge(List_a, List_b):
-  	'merge two Lists have sorted'
+    'merge two Lists have sorted'
     if len(List_a) == 0 or len(List_b) == 0:
       return List_a+List_b
     elif List_a[0] < List_b[0]:
